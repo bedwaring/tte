@@ -36,6 +36,7 @@ fn main() {
             ":wq" => {
                 save_file(&filename, &file_content);
                 println!("Saving and quitting...");
+                break;
             }
             _ => {
                 file_content.push_str(input);
