@@ -7,7 +7,7 @@ readme = "README.md"
 description = "Tiny Text Editor is a lightweight text editor like vim."
 homepage = "https://github.com/bedwaring/tte"
 repository = "https://github.com/bedwaring/tte"
-keywords = ["cli", "vim", "Tiny", "Text"]
+keywords = ["cli", "vim", "tiny", "text", "tte"]
 license = "MIT"
 categories = ["command-line-utilities"]
 
