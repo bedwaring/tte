@@ -1,0 +1,36 @@
+[package]
+name = "tte"
+version = "0.1.0"
+edition = "2021"
+authors = ["Spangled"]
+readme = "README.md"
+description = "Tiny Text Editor is a lightweight text editor like vim."
+homepage = "https://github.com/bedwaring/tte"
+repository = "https://github.com/bedwaring/tte"
+keywords = ["cli", "vim", "Tiny", "Text"]
+license = "MIT"
+categories = ["command-line-utilities"]
+
+[dependencies]
+
+[profile.release]
+opt-level = 3
+strip = "debuginfo"
+codegen-units = 16
+debug = false
+overflow-checks = true
+lto = false
+panic = 'unwind'
+debug-assertions = false
+incremental = false
+
+[profile.dev]
+opt-level = 3
+strip = "debuginfo"
+codegen-units = 16
+debug = false
+overflow-checks = true
+lto = false
+panic = 'unwind'
+debug-assertions = false
+incremental = true
