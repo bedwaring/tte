@@ -1,5 +1,5 @@
 [package]
-name = "tte"
+name = "tiny-editor"
 version = "0.1.0"
 edition = "2021"
 authors = ["Spangled"]
